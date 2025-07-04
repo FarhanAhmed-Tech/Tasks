@@ -145,3 +145,12 @@ if(found) {
 }else {
     console.log('Not-Found');
 }
+
+let firstNames = ['Cool','Fast','Big']
+let lastNames = ['Bear','Tiger','Lion']
+
+for(let i = 0; i < firstNames.length; i++) {
+    for(let j = 0; j < lastNames.length; j++) {
+        console.log(firstNames[i] + "" + lastNames[j]);
+    }
+}
